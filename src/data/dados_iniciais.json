@@ -1,0 +1,185 @@
+{
+  "categorias": [
+    {
+      "titulo": "Engenharia da coisa",
+      "link": "https://www.youtube.com/watch?v=-VRWHE4EPAo",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Descobrindo como são feitos os espelhos.",
+        "url": "https://www.youtube.com/watch?v=FBGDuYQccRY&t=60s"
+      },
+      "videos": [
+        {
+          "titulo": "Aprenda agora a resolver um cubo mágico!",
+          "url": "https://www.youtube.com/watch?v=Qhx8pKyxCrM"
+        },
+        {
+          "titulo": "Abrindo televisões e descobrindo o tem dentro.",
+          "url": "https://www.youtube.com/watch?v=Qhx8pKyxCrM"
+        },
+        {
+          "titulo": "Descobrindo como são feitos os espelhos.",
+          "url": "https://www.youtube.com/watch?v=FBGDuYQccRY&t=60s"
+        },
+        {
+          "titulo": "Turbinando luzes de pulseiras de balada.",
+          "url": "https://www.youtube.com/watch?v=fZs1xthxdo4"
+        },
+        {
+          "titulo": "Como transmitir eletricidade sem fio",
+          "url": "https://www.youtube.com/watch?v=sMfAotrPEkI"
+        },
+        {
+          "titulo": "Geração de energia eólica",
+          "url": "https://www.youtube.com/watch?v=B69rVmtIg34"
+        },
+        {
+          "titulo": "Fazendo um cofre com criptografia avançada",
+          "url": "https://www.youtube.com/watch?v=81EVZ3qPwPQ"
+        },
+        {
+          "titulo": "Experiências com água",
+          "url": "https://www.youtube.com/watch?v=yz6YbspQVSw&t=649s"
+        }        
+      ]
+    },
+    {
+      "titulo": "Vídeos bestas",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Assalto on-line D:",
+        "url": "https://www.youtube.com/watch?v=tGg1mQs2ouo&t=2s"
+      },
+      "videos": [
+        {
+          "titulo": "Procedimento estéticos",
+          "url": "https://www.youtube.com/watch?v=gi-PUaEXebs"
+        },
+        {
+          "titulo": "Espião na aula.",
+          "url": "https://www.youtube.com/watch?v=c8Mmt5rq03M"
+        },
+        {
+          "titulo": "Tik Toker",
+          "url": "https://www.youtube.com/watch?v=DpytLasScOc"
+        },
+        {
+          "titulo": "Pedi o japa mais caro e mais barato :o ",
+          "url": "https://www.youtube.com/watch?v=KCNAtwbvyto"
+        }, 
+        {
+          "titulo": "ASMR para vocês",
+          "url": "https://www.youtube.com/watch?v=UZp45TegJjY"
+        }
+      ]
+    },
+    {
+      "titulo": "Data Science e Inteligência Artificial",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Ei você, vem ser um programador #PHYTON",
+        "url": "https://www.youtube.com/watch?v=S9uPNppGsGo"
+      },
+      "videos": [
+        {
+          "titulo": "Dicas para entrevista na área de tecnologia",
+          "url": "https://www.youtube.com/watch?v=frsYDnKnwPc"
+        },
+        {
+          "titulo": "Começando a programar, ta na mão",
+          "url": "https://www.youtube.com/watch?v=nLPssMXOExM"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos na Alura",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
