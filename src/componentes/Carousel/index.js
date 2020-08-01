@@ -2,6 +2,7 @@ import React from 'react';
 import { VideoCardGroupContainer, VideoCardList, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, {SliderItem} from './components/Slider';
+import { ThemeProvider } from 'styled-components';
 
 function Carrossel({
   ignoreFirstVideo,
@@ -11,6 +12,11 @@ function Carrossel({
   const categoryColor = category.cor;
   const categoryExtraLink = category.link_extra;
   const videos = category.videos;
+
+  const theme = {
+    main: categoryColor
+  };
+
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
@@ -25,6 +31,7 @@ function Carrossel({
           }
         </>
       )}
+    <ThemeProvider theme={theme} >
       <Slider>
         {videos.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
@@ -42,6 +49,7 @@ function Carrossel({
           );
         })}
       </Slider>
+     </ThemeProvider>
     </VideoCardGroupContainer>
   );
 }
