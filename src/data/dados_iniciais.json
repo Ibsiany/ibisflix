@@ -71,6 +71,10 @@
         {
           "titulo": "ASMR para vocês",
           "url": "https://www.youtube.com/watch?v=UZp45TegJjY"
+        },
+        {
+        "titulo": "Invasão no morro",
+          "url": "https://www.youtube.com/watch?v=Mhrkm1yKSNo"
         }
       ]
     },
@@ -97,6 +101,10 @@
         {
           "titulo": "Como ingressar no mercado de Data Science?",
           "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        },
+        {
+          "titulo": "Inteligência artificial, o que é?",
+          "url": "https://www.youtube.com/watch?v=Lhu8bdmkMCM"
         }
       ]
     },
@@ -119,6 +127,14 @@
         {
           "titulo": "Feitiço do Tempo",
           "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        },
+        {
+          "titulo": "Bob esponja: O incrível resgate",
+          "url":"https://www.youtube.com/watch?v=NORzSapZfVc"
+        },
+        {
+          "titulo":"Sonic o filme",
+          "url": "https://www.youtube.com/watch?v=Myz5XoSePXQ"
         }
       ]
     },
@@ -179,6 +195,14 @@
         {
           "titulo": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        },
+        {
+          "titulo": "Android studio",
+          "url": "https://www.youtube.com/watch?v=3dDlw9A1PM8"
+        },
+        {
+          "titulo": "Aprende a instalar ai gente",
+          "url": "https://www.youtube.com/watch?v=41j972VFbD4"
         }
       ]
     }
