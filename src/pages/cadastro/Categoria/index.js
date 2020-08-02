@@ -1,6 +1,7 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../componentes/PagesDefault';
+import Button from '../../../componentes/Button';
 import FormField from '../../../componentes/FormField';
 
 function CadastroCategoria() {
@@ -24,6 +25,25 @@ function CadastroCategoria() {
      infosDoEvento.target.value
      );
   }
+
+  useEffect(() =>{
+   //  if(window.location.href.includes('localhost')) {
+      console.log('olá Brasil');
+      const URL_TOP = 'http://localhost:8080/categorias';
+      fetch(URL_TOP)
+       .then(async (respostaDoServidor) =>{
+     //   if(respostaDoServer.ok) {
+          const resposta = await respostaDoServidor.json();
+          setCategorias([
+            ...resposta,
+          ]);
+//return; 
+    //    }
+  //      throw new Error('Não foi possível pegar os dados');
+  //     }
+  });
+  }, []);
+
   return (
     <PageDefault>
       <h1>Cadastro de Categoria: {values.nome}</h1>
@@ -51,18 +71,6 @@ function CadastroCategoria() {
           value={values.descricao}
           onChange= {handleChange}
         />
-        {/*<div>
-        <label>
-          Descrição:  
-          <textarea
-            type="text"
-            value={values.descricao}
-            name="descricao"
-            onChange= {handleChange}
-          /> 
-        </label>
-        
-        </div>*/}
         <FormField
           label="Cor"
           type = "color"
@@ -70,35 +78,27 @@ function CadastroCategoria() {
           value={values.cor}
           onChange= {handleChange}
         />
-        {/*<div>
-        <label>
-          Cor:  
-          <input
-            type="color"
-            value={values.cor}
-            name="cor"
-            onChange= {handleChange}
-          /> 
-        </label>
-        </div>*/}
-        <button>
+        <Button>
             Cadastrar
-        </button>
-
+        </Button>
       </form> 
+
+      {categorias.length === 0 && (
+        <div>
+        Loading...
+      </div>
+  )}
+
             <ul>
-                {categorias.map((categoria, indice) =>{
-                  return(
-                    <li key={`${categoria}${indice}`}>
+                {categorias.map((categoria) =>(
+                    <li key={`${categoria.nome}`}>
                       {categoria.nome}
                     </li> 
-                  )
-
-                })}
+                  ))}
             </ul>
 
       <Link to="/">
-          <h2>Voltar para tela inicial</h2>
+          <h2>Voltar para a tela inicial</h2>
       </Link>
     </PageDefault>
     )

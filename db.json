@@ -1,0 +1,16 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "titulo": "Front End",
+        "descricao": "Um show",
+        "cor": "#cbd1ff"
+      },
+     {
+          "id": 2,
+          "titulo": "Back End",
+          "descricao": "Outro show",
+          "cor": "#cbd1ff"
+        }
+    ]
+  }
