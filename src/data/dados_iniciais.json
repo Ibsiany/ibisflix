@@ -45,20 +45,28 @@
       ]
     },
     {
-      "titulo": "Vídeos bestas",
+      "titulo": "Vídeos beeeem aleatórios",
       "cor": "#00C86F",
-      "link_extra": {
-        "text": "Assalto on-line D:",
-        "url": "https://www.youtube.com/watch?v=tGg1mQs2ouo&t=2s"
-      },
       "videos": [
         {
           "titulo": "Procedimento estéticos",
           "url": "https://www.youtube.com/watch?v=gi-PUaEXebs"
         },
         {
+          "titulo": "Procedimento estéticos",
+          "url": "https://www.youtube.com/watch?v=gi-PUaEXebs"
+        },
+        {
+          "titulo": "Cofre da hora",
+          "url": "https://www.youtube.com/watch?v=hS44ieIjNEY"
+        },
+        {
           "titulo": "Espião na aula.",
           "url": "https://www.youtube.com/watch?v=c8Mmt5rq03M"
+        },
+        {
+          "titulo": "Inimigas",
+          "url": "https://www.youtube.com/watch?v=ERqwYAUC_ng"
         },
         {
           "titulo": "Tik Toker",
@@ -73,38 +81,50 @@
           "url": "https://www.youtube.com/watch?v=UZp45TegJjY"
         },
         {
+          "text": "Assalto on-line D:",
+          "url": "https://www.youtube.com/watch?v=tGg1mQs2ouo&t=2s"
+        },
+        {
+          "text": "Como não anunciar a gravidez",
+          "url": "https://www.youtube.com/watch?v=LLzVaGUbPao"
+        },
+        {
+          "text": "Como não anunciar a gravidez",
+          "url": "https://www.youtube.com/watch?v=R-mJkcKsnfw"
+        },
+        {
         "titulo": "Invasão no morro",
           "url": "https://www.youtube.com/watch?v=Mhrkm1yKSNo"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Cuide das suas finanças",
       "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Ei você, vem ser um programador #PHYTON",
-        "url": "https://www.youtube.com/watch?v=S9uPNppGsGo"
-      },
       "videos": [
         {
-          "titulo": "Dicas para entrevista na área de tecnologia",
-          "url": "https://www.youtube.com/watch?v=frsYDnKnwPc"
+          "titulo": "Não se engane",
+          "url": "https://www.youtube.com/watch?v=1Cv5_qu0vi8"
         },
         {
-          "titulo": "Começando a programar, ta na mão",
-          "url": "https://www.youtube.com/watch?v=nLPssMXOExM"
+          "titulo": "Não se engane",
+          "url": "https://www.youtube.com/watch?v=1Cv5_qu0vi8"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Educação é um gasto ou um investimento?",
+          "url": "https://www.youtube.com/watch?v=4i50eZ_DPvw"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Organizando o dinheirinho",
+          "url": "https://www.youtube.com/watch?v=wTnSMw4NtXA"
         },
         {
-          "titulo": "Inteligência artificial, o que é?",
-          "url": "https://www.youtube.com/watch?v=Lhu8bdmkMCM"
+        "titulo": "E aí? Qual o melhor?",
+        "url": "https://www.youtube.com/watch?v=coAZ5BVsnBk"
+      },
+        {
+          "titulo": "Aprenda a precificar seu serviço na internet",
+          "url": "https://www.youtube.com/watch?v=icSpdlkjshQ"
         }
       ]
     },
@@ -112,6 +132,10 @@
       "titulo": "Trailers para te deixar curioso :D",
       "cor": "orange",
       "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
         {
           "titulo": "Interestellar",
           "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
@@ -139,70 +163,74 @@
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Receitas",
       "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Bolo de rico",
+          "url": "https://www.youtube.com/watch?v=GMsddo6O_s0"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Bolo de rico",
+          "url": "https://www.youtube.com/watch?v=GMsddo6O_s0"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "Empadão hmmmm",
+          "url": "https://www.youtube.com/watch?v=JXxpNVPFAzk"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "text": "Bolo de dar água na boca",
+          "url": "https://www.youtube.com/watch?v=uPBk9oLx5d8"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "hambúrger do siri cascudo",
+          "url": "https://www.youtube.com/watch?v=o3Djz9oopcQ&t=277s"
+        },
+        {
+          "titulo": "Você é a vergonha da profission",
+          "url": "https://youtu.be/dNGed9DxpI8"
+        },
+        {
+          "titulo": "Stroganoff, com A mesmo!",
+          "url": "https://youtu.be/8qFZ0N4R68k"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Apoie um artista",
       "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Pra morrer de rir e aprender",
+          "url": "https://www.youtube.com/watch?v=JSgo_Yp--qg"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Pra morrer de rir e aprender",
+          "url": "https://www.youtube.com/watch?v=JSgo_Yp--qg"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Fofura",
+          "url": "https://www.youtube.com/watch?v=jJLokK6zJFw"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Mika mika",
+          "url": "https://www.youtube.com/watch?v=dO2zzzJnT2c"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Desafio com convidado",
+          "url": "https://https://www.youtube.com/watch?v=cVv6-Sg7YMU"
         },
         {
-          "titulo": "Android studio",
-          "url": "https://www.youtube.com/watch?v=3dDlw9A1PM8"
+          "titulo": "Haja paciência",
+          "url": "https://www.youtube.com/watch?v=U0KeEcKSoMM"
         },
         {
-          "titulo": "Aprende a instalar ai gente",
-          "url": "https://www.youtube.com/watch?v=41j972VFbD4"
+          "titulo": "Desenhando com massinha",
+          "url": "https://www.youtube.com/watch?v=94BDRb03Dag"
+        },
+        {
+          "titulo": "Fazendo bullet journal",
+          "url": "https://www.youtube.com/watch?v=3aoOHDNqkvQ"
         }
       ]
     }
