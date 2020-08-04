@@ -5,16 +5,17 @@ import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../../components/Footer';
 
-
 function Home() {
+  // http://localhost:8080/categorias?_enbed=videos
+
   return (
-    <div style={{ background: "#141414" }}>
+    <div style={{ background: '#141414' }}>
       <Menu />
 
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Computação quântica é a palavra do futuro. Há pouco tempo, a Google anunciou que alcançamos a supremacia quântica e todos ficaram animados. Como estamos cada vez mais próximos do limite da computação atual, a expectativa de computadores quânticos no horizonte nos deixa animados. Mas como é que um computador quântico funciona? O que torna ele diferente de um computador clássico?"}
+        videoDescription="Muitas vezes nos perguntamos como igualar as paredes desse pequeno equipamento quadricular do *****, portanto nesse video você aprenderá a resolver de vez o cubo mágico!"
       />
 
       <Carousel
