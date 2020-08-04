@@ -6,7 +6,7 @@ import useForm from '../../../hocks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
@@ -50,7 +50,7 @@ function CadastroCategoria() {
         <FormField
           label="Nome da Categoria"
           type="text"
-          name="nome"
+          name="titulo"
           value={values.nome}
           onChange={handleChange}
         />

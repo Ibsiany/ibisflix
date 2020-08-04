@@ -22,10 +22,10 @@ export const VideoCardContainer = styled.a`
   transition: 0.8s;
 
   &:hover{
-    transform: scale(1.3);
+    width: 400px;
   }
   &:focus {
-    transform: scale(1.3);
+    width: 400px;
   }
   &:not(:first-child) {
     margin-left: 20px;
