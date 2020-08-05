@@ -12,12 +12,14 @@ function create(objetoDoVideo) {
   })
     .then(async (respostaDoServidor) => {
       if (respostaDoServidor.ok) {
-        const reposta = await respostaDoServidor.json();
-        return reposta;
+        const resposta = await respostaDoServidor.json();
+        return resposta;
       }
-      throw new Error('Não foi possível cadastrar os dados :(');
+
+      throw new Error('Não foi possível cadastrar os dados:(');
     });
 }
+
 export default {
   create,
 };

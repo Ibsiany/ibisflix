@@ -2,18 +2,17 @@
 import React, { useEffect, useState } from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
+import categoryRepository from '../../repositories/categorias';
 import PageDefault from '../../components/PageDefault';
-import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
-  const [dadosIniciais, setDadoIniciais] = useState([]);
+  // http://localhost:8080/categorias?_embed=videos
+  const [dadosIniciais, setDadosIniciais] = useState([]);
 
   useEffect(() => {
-  // http://localhost:8080/categorias?_embed=videos
-    categoriasRepository.getAllWithVideos()
+    categoryRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
-        console.log(categoriasComVideos[0].videos[0]);
-        setDadoIniciais(categoriasComVideos);
+        setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
         console.log(err.message);
@@ -22,6 +21,7 @@ function Home() {
 
   return (
     <PageDefault paddingAll={0}>
+
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 
       {dadosIniciais.map((categoria, indice) => {
@@ -52,8 +52,7 @@ function Home() {
       {/* <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-         // eslint-disable-next-line max-len
-         videoDescription="Muitas vezes nos perguntamos como igualar as paredes desse pequeno equipamento quadricular do *****, portanto nesse video você aprenderá a resolver de vez o cubo mágico!"
+        videoDescription="Muitas vezes nos perguntamos como igualar as paredes desse pequeno equipamento quadricular do *****, portanto nesse video você aprenderá a resolver de vez o cubo mágico!"
       />
 
       <Carousel
