@@ -77,7 +77,7 @@ function CadastroVideo() {
       <br />
       <br />
 
-      <Link to="/cadastro/categoria">
+      <Link to="/cadastrocategoria">
         Cadastrar Categoria
       </Link>
     </PageDefault>

@@ -1,11 +1,23 @@
+.Logo{
+  height: 40px;
+}
 .Logo {
+  max-width: 168px;
+}
+@media (max-width: 800px) {
+  .Logo {
+    max-width: 105px;
+  }
+}
+
+{/*.Logo {
     max-width: 168px;
   }
   @media (max-width: 800px) {
     .Logo {
       max-width: 105px;
     }
-  }
+  }*/}
   
   .Menu {
     width: 100%;
