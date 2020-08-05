@@ -17,6 +17,7 @@ export default function BannerMain({
 }) {
   const youTubeID = getYouTubeId(url);
   const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
+  const viUrl = `https://youtu.be/Qhx8pKyxCrM=${youTubeID}`;
 
   return (
     <BannerMainContainer backgroundImage={bgUrl}>
@@ -36,7 +37,9 @@ export default function BannerMain({
             youtubeID={youTubeID}
           />
           <WatchButton>
-            Assistir
+            <a href={viUrl}>
+              Assistir
+            </a>
           </WatchButton>
         </ContentAreaContainer.Item>
       </ContentAreaContainer>

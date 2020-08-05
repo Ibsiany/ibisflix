@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import PageDefault from '../../componentes/PagesDefault';
+import PageDefault from '../../components/PageDefault';
 import categoriasRepository from '../../repositories/categorias';
 
 function Home() {
@@ -32,7 +32,6 @@ function Home() {
                 videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
                 videoDescription="Muitas vezes nos perguntamos como igualar as paredes desse pequeno equipamento quadricular do *****, portanto nesse video você aprenderá a resolver de vez o cubo mágico!"
-               //videoDescription={dadosIniciais[0].videos[0].description}
               />
               <Carousel
                 ignoreFirstVideo

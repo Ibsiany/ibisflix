@@ -12,20 +12,12 @@
     {
       "id": 2,
       "titulo": "Vídeos beeeem aleatórios",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Procedimentos estéticos",
-        "url": "https://www.youtube.com/watch?v=gi-PUaEXebs"
-      }
+      "cor": "#00C86F"
     },
     {
       "id": 3,
       "titulo": "Cuide das suas finanças",
-      "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Não se engane",
-        "url": "https://www.youtube.com/watch?v=1Cv5_qu0vi8"
-      }
+      "cor": "#9cd33b"
     },
     {
       "id": 4,
@@ -35,20 +27,17 @@
     {
       "id": 5,
       "titulo": "Receitas",
-      "cor": "red",
-      "link_extra": {
-        "text": "Hambúrger do sirí cascudo",
-        "url": "https://www.youtube.com/watch?v=o3Djz9oopcQ&t=277s"
-      }
+      "cor": "red"
     },
     {
       "id": 6,
       "titulo": "Apoie um artista",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Para morrer de rir e aprender",
-        "url": "https://www.youtube.com/watch?v=JSgo_Yp--qg"
-      }
+      "cor": "#6b5be2"
+    },
+    {
+      "id": 7,
+      "titulo": "Pica Pau",
+      "cor": "blue"
     }
   ],
   "videos": [
@@ -321,6 +310,48 @@
       "url": "https://www.youtube.com/watch?v=lEh8O5f4FGc",
       "categoriaId": 2,
       "id": 45
+    },
+    {
+      "id": 46,
+      "categoriaId": 7,
+      "titulo": "Amo pica pau vei",
+      "url": "https:/https://www.youtube.com/watch?v=3pg0bbTzqcc"
+    },
+    {
+      "id": 47,
+      "categoriaId": 7,
+      "titulo": "Vamos de live",
+      "url": "https://www.youtube.com/watch?v=ZHzeb1Zmcik"
+    },
+    {
+      "id": 48,
+      "categoriaId": 7,
+      "titulo": "Pica pica pica pau",
+      "url": "https://www.youtube.com/watch?v=vZaLuNGIX7w"
+    },
+    {
+      "id": 49,
+      "categoriaId": 7,
+      "titulo": "Olha eu aqui de novo: Pica pau",
+      "url": "https://www.youtube.com/watch?v=B0mebVqRF_0&t=616s"
+    },
+    {
+      "id": 50,
+      "categoriaId": 7,
+      "titulo": "Não me canso KKKKKK",
+      "url": "https://www.youtube.com/watch?v=uRqSP6sa1zM"
+    },
+    {
+      "titulo": "Pinball Caseiro",
+      "url": "https://www.youtube.com/watch?v=0rxrPmkGQdI",
+      "categoriaId": 2,
+      "id": 51
+    },
+    {
+      "titulo": "Pinball Caseiro",
+      "url": "https://www.youtube.com/watch?v=0rxrPmkGQdI",
+      "categoriaId": 1,
+      "id": 52
     }
   ]
 }
