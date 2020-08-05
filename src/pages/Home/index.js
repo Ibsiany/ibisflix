@@ -30,7 +30,7 @@ function Home() {
             <div key={categoria.id}>
               <BannerMain
                 videoTitle={dadosIniciais[0].videos[0]}
-                url={dadosIniciais[0].videos[0].url}
+                url={dadosIniciais[0].videos[0]}
                 videoDescription="Muitas vezes nos perguntamos como igualar as paredes desse pequeno equipamento quadricular do *****, portanto nesse video você aprenderá a resolver de vez o cubo mágico!"
               />
               <Carousel
