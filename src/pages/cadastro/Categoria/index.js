@@ -51,7 +51,7 @@ function CadastroCategoria() {
           label="Nome da Categoria"
           type="text"
           name="titulo"
-          value={values.nome}
+          value={values.titulo}
           onChange={handleChange}
         />
 
